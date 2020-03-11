@@ -108,7 +108,7 @@ catkin_package(
 #  LIBRARIES meaoocar_msgs
 #  CATKIN_DEPENDS std_msgs
 #  DEPENDS system_lib
-   CATKIN_DEPENDS std_msgs mavros_msgs message_runtime
+   CATKIN_DEPENDS std_msgs message_runtime
 )
 
 ###########
