@@ -9,9 +9,7 @@ add_compile_options(-std=c++11)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
-  mavros_msgs
   message_generation
-  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -74,8 +72,6 @@ find_package(catkin REQUIRED COMPONENTS
  generate_messages(
    DEPENDENCIES
    std_msgs
-   geometry_msgs
-   mavros_msgs
  )
 
 ################################################
@@ -112,7 +108,7 @@ catkin_package(
 #  LIBRARIES meaoocar_msgs
 #  CATKIN_DEPENDS std_msgs
 #  DEPENDS system_lib
-   CATKIN_DEPENDS std_msgs mavros_msgs geometry_msgs message_runtime
+   CATKIN_DEPENDS std_msgs mavros_msgs message_runtime
 )
 
 ###########
