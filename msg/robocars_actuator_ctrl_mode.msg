@@ -1,0 +1,5 @@
+int32 ACTUATOR_MODE_NOMINAL=0
+int32 ACTUATOR_MODE_QUALIBRATE=1
+
+Header header
+int32 mode
