@@ -56,7 +56,7 @@ find_package(catkin REQUIRED COMPONENTS
    robocars_brain_state.msg
    robocars_actuator_ctrl_mode.msg
    robocars_autopilot_output.msg
-   robocars_switch.msg
+   robocars_mark.msg
  )
 
 ## Generate services in the 'srv' folder
